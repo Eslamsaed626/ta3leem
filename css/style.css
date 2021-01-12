@@ -1,0 +1,1163 @@
+/* 
+* created by Mohamed hendy [ mohamadhendy14@gmail.com]
+* Bootstrap v4.5.x
+*/
+/* *** Global ***/
+body {
+  text-align: right;
+  direction: rtl;
+}
+/*--- Fonts ----- */
+@font-face {
+  font-family: "29LTBukra";
+  src: url("../fonts/29ltbukrabold.otf");
+}
+@font-face {
+  font-family: "AJannatLT";
+  src: url("../fonts/a-jannat-lt.ttf");
+}
+@font-face {
+  font-family: "Cairo";
+  src: url("../fonts/Cairo-Regular.ttf");
+}
+@font-face {
+  font-family: "DroidArabicKufi";
+  src: url("../fonts/DroidKufi-Regular.ttf");
+}
+.buk-29 {
+  font-family: "29LTBukra";
+}
+.aja-font {
+  font-family: "AJannatLT";
+}
+.cairo {
+  font-family: "Cairo";
+}
+.kufi {
+  font-family: "Cairo";
+}
+.green-color {
+  color: #00988f;
+}
+.bg-light-green {
+  background-color: #6fc191;
+  background-image: url("../images/bg-mind.png");
+}
+.bg-green {
+  background-color: #00a197;
+}
+.bg-color {
+  background-color: #1a506b;
+}
+.bg-light-color {
+  background-color: #0f3c53;
+}
+.bg-orange {
+  background-color: #ec774c;
+  background-image: url("../images/bg-read.png");
+}
+.bg-orange-d {
+  background-color: #ec774c;
+}
+.orange-color {
+  color: #ec774c;
+}
+.bg-yellow {
+  background-color: #ebc04a;
+  background-image: url("../images/bg-news.png");
+}
+.bg-sky {
+  background-color: #72cfe7;
+  background-image: url("../images/bg-play.png");
+}
+.card-title-color {
+  color: #423380;
+}
+p {
+  font-size: 15px;
+  color: #50596c;
+}
+.fe-title {
+  color: #08b3c0;
+}
+.start-now {
+  border-radius: 18px;
+  background-image: linear-gradient(90deg, #035b55 0%, #00a197 100%);
+}
+.bg-teacher {
+  background-color: #00a197;
+    color: #FFF;
+}
+/* Start header **************/
+header {
+  background-image: url(../images/HED2.png);
+  min-height: 721px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+}
+/* navbar  *****************/
+.custom-bars-icon {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 29px 18px;
+  background-color: #1a506b;
+  box-shadow: 0 8px 0 0 #1a506b, 0 -8px 0 0 #1a506b;
+}
+.f-btn {
+  border-radius: 14px;
+}
+a:hover {
+  text-decoration: none;
+}
+.fa-whatsapp {
+  background-color: #39b54a;
+}
+.fa-twitter {
+  background-color: #289cef;
+}
+.fa-facebook-f {
+  background-color: #4762b0;
+}
+.fa-instagram {
+  background-color: #c32f7c;
+}
+.fa-google-plus-g {
+  background-color: #e62454;
+}
+.fa-whatsapp:hover {
+  background-color: #56e969;
+}
+.fa-twitter:hover {
+  background-color: #49b2fd;
+}
+.fa-facebook-f:hover {
+  background-color: #294cb3;
+}
+.fa-instagram:hover {
+  background-color: #f34ea3;
+}
+.fa-google-plus-g:hover {
+  background-color: #f84545;
+}
+.social-links a {
+  padding: 0 !important;
+  margin: 0;
+}
+.nav-link {
+  padding: 5px 1rem;
+}
+.social-links a i {
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  border-radius: 16px;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-brand {
+  font-size: 31px;
+  line-height: 21px;
+  color: #12214f;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 15px;
+  color: #000;
+  transition: 0.2s all ease-in-out;
+  border-radius: 14px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: #00a197;
+  color: #fff;
+}
+.learn {
+  font-size: 18px;
+  line-height: 27px;
+  color: #12214f;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-size: 32px;
+  color: #0b0e30;
+}
+/* End header ***********************/
+
+/* learn section    */
+
+.desc {
+  height: 107px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0px 17px;
+}
+.desc h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.guid h4 {
+  font-size: 25px;
+}
+.guid p {
+  color: #0f0f32;
+  font-size: 15;
+  line-height: 24px;
+}
+.circle {
+  width: 162px;
+  height: 162px;
+  border-radius: 81px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 15px 0px rgba(193, 193, 193, 0.32),
+    -1px -1px 15px 0px rgba(193, 193, 193, 0.32);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.img-lic {
+  margin-right: -28px;
+  margin-bottom: -30px;
+}
+
+/*  قسم تسجيل البيانات                */
+
+.btn-data {
+  min-height: 37px;
+  border-radius: 5px;
+  background-color: #05337d;
+  min-width: 170px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.btn-data:hover {
+  background-color: #102850;
+}
+.data-reg {
+  background-image: url("../images/development.png");
+  min-height: 300px;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.overlay-sky {
+  background-color: #11728a0d;
+}
+
+/*   قسم الدورات التعليمية  ****************/
+
+.rest-c li {
+  font-size: 15px;
+}
+.edu-img {
+  height: 200px;
+}
+.more-info {
+  height: 36px;
+  font-size: 12px;
+  color: #50596c;
+  font-family: "AJannatLT";
+  overflow: hidden;
+}
+.more-btn {
+  border-radius: 15px;
+  border: 1px solid #423380;
+  transition: 0.2s all ease-in-out;
+}
+.more-btn:hover {
+  background-color: #423380;
+  color: #fff;
+}
+.courses {
+  box-shadow: 1px 1px 15px 0px rgba(193, 193, 193, 0.486),
+    -1px -1px 15px 0px rgba(193, 193, 193, 0.486);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.courses img {
+  border-radius: 15px 15px 0 0;
+}
+.main-crd-cnt {
+  margin-top: -8px;
+  background-color: #f4f5f6;
+}
+.ov-icon {
+  width: 30px;
+  text-align: center;
+  margin: 8px 0;
+}
+.ov-kufi {
+  font-size: 13px;
+  background-color: #1a506bec;
+  color: #fff;
+  position: absolute;
+  height: 100%;
+  top: -100%;
+  transition: 0.3s all ease-in-out;
+}
+.courses:hover .ov-kufi {
+  top: 0;
+}
+
+/* قسم المميزات                 */
+
+.feauter {
+  font-size: 32px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "AJannatLT";
+}
+.book-img {
+  justify-content: flex-end;
+}
+.main-fea {
+  background-image: url("../images/features.png");
+  background-attachment: fixed;
+}
+.over-fe {
+  background-color: #082c3ee3;
+}
+.p-uniqe {
+  color: #08b3c0;
+}
+.laptop {
+  max-width: 250px;
+}
+
+.carousel-indicators li {
+  background-color: #214151;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-indicators {
+  bottom: -37px;
+}
+/* mobile Code ************/
+.add-mobile {
+  padding: 5rem 0 2rem;
+  background: #dddddd5e;
+}
+.mobile-code {
+  width: 300px;
+  height: 45px;
+  background-color: #fff !important;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: block;
+  box-shadow: 1px 1px 15px 0px rgba(193, 193, 193, 0.32),
+    -1px -1px 15px 0px rgba(193, 193, 193, 0.32);
+}
+.flag-sa {
+  height: 20px;
+}
+button:focus {
+  outline: 0;
+}
+
+/* Footer */
+
+.footer-link {
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.last-footer {
+  background-color: #0f3c53;
+  color: #fff;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -2px;
+}
+.account {
+  border-right: 2px solid #fff;
+  padding-right: 23px;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .last-footer {
+    display: block;
+    text-align: center;
+  }
+  .last-footer div {
+    margin-bottom: 10px;
+  }
+  .learn {
+    font-size: 18px !important;
+    width: 100% !important;
+    margin: 2rem auto;
+    line-height: 30px !important;
+  }
+  .las-le {
+    text-align: center;
+  }
+  .navbar.py-4 {
+    padding: 10px !important;
+  }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+  header {
+    background-position: 42% 50%;
+  }
+  .desc h2 {
+    font-size: 18px;
+  }
+  .btn-data {
+    min-width: 150px;
+  }
+  .book-img {
+    justify-content: center;
+  }
+  .arro {
+    margin: 30px 0;
+  }
+  .lap-cars,
+  .lap-cars h3.text-right,
+  .lap-img {
+    text-align: center !important;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    background-position: 30% 100%;
+  }
+  .desc h2 {
+    font-size: 20px;
+  }
+  .book-img {
+    justify-content: center;
+  }
+  .arro {
+    margin: 30px 0;
+  }
+  .lap-cars,
+  .lap-cars h3.text-right,
+  .lap-img {
+    text-align: center !important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    background-position: 20% 100%;
+  }
+  .desc h2 {
+    font-size: 20px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+  header {
+    background-position: 42% 100%;
+  }
+  .desc h2 {
+    font-size: 23px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  header {
+    background-position: 42% 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 925px;
+  }
+}
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .learn {
+    font-size: 23px;
+    width: 90%;
+    margin: 2rem auto;
+    line-height: 34px;
+  }
+  .start-now {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1300px;
+  }
+}
+
+/* Login page */
+/* ________________________________________________________________________________________________  */
+.nav-item .btn-outline-success:hover {
+  color: #fff !important;
+}
+.manually-log select {
+  max-width: 50px;
+}
+.country-code {
+  width: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0 !important;
+  cursor: pointer;
+}
+.input-field {
+  border-left: 0 !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-field-2 {
+  border-radius: 0 !important;
+}
+.lock {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.icons-input {
+  max-width: 40px;
+}
+.icon-left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.icon-right {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.swap-cap label {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  border-bottom: 3px solid transparent;
+}
+
+.gr-border {
+  padding-top: 10px;
+  border-bottom: 3px solid #00a197;
+  width: 0;
+  transition: 0.2s all ease-in-out;
+}
+.swap-cap label:hover .gr-border {
+  width: 100% !important;
+}
+.user-form {
+  width: 300px !important;
+}
+.user-form .form-control {
+  height: calc(1.5em + 1rem + 2px);
+  border: 1px solid #ced4da8a;
+}
+.form-control:focus {
+  border-color: #ced4da8a;
+  outline: 0;
+  box-shadow: none;
+}
+.eye {
+  cursor: pointer;
+}
+.icons-input {
+  color: #d7d7d7;
+}
+.start-now:hover {
+  border-radius: 18px;
+  background-image: linear-gradient(90deg, #18b4aa 0%, #00a197 100%);
+}
+.circle-border {
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  margin: 0 auto;
+}
+.user-form {
+  margin: auto;
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .header-reg {
+    background-image: none;
+  }
+}
+
+/* Personal information page */
+/* ________________________________________________________________________________________________  */
+
+.person-info {
+  min-height: 100% !important;
+  background-image: none;
+}
+.personal-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 3px dotted #ec7757;
+}
+.align-center {
+  color: #0f0f32;
+  padding: 5px 9px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  transition: 0.1s all ease-in-out;
+}
+.align-center:hover {
+  color: #fff;
+  background-color: #ec774c;
+}
+.align-center:hover i {
+  color: #fff;
+}
+.align-center i {
+  color: #ec774c;
+  margin-left: 10px;
+  width: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-name {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background-color: #ec7757;
+}
+.my-shadow {
+  box-shadow: 1px 1px 15px 0px rgba(193, 193, 193, 0.32),
+    -1px -1px 15px 0px rgba(193, 193, 193, 0.32);
+}
+.profile-title {
+  border-right: 8px solid #00a197;
+}
+.profile .form-control,
+.profile select {
+  height: 46px;
+  color: #757575;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .user-name {
+    flex-direction: column;
+    height: 64px;
+  }
+  .personal-pic {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* ___________________________________________ Courses Page ___________________________ */
+
+.courses-list {
+  min-height: 320px;
+}
+.course-cover img {
+  height: 150px;
+  width: 180px;
+}
+.course-des {
+  width: 197px;
+}
+.no-courses img {
+  width: 100px;
+  margin: auto;
+}
+.no-courses {
+  margin-top: 80px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .courses-controls .col-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .courses-controls {
+    padding: 0px 11px;
+  }
+  .profile,
+  .user-controls {
+    padding: 0;
+  }
+  .py-5.course-div {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+  .course-cover img {
+    height: 102px;
+    width: 120px;
+  }
+  .course-des {
+    width: 135px;
+  }
+  .title-sm {
+    font-size: 14px;
+  }
+}
+
+/* _________________________________________________ course Details ______________________ */
+.lecture-title h5 {
+  font-size: 21px;
+  text-align: center;
+  background-color: #1a506b;
+  color: #fff;
+  padding: 7px;
+}
+.play-video {
+  width: 18px;
+}
+.reg-lec {
+  color: #fff;
+  padding: 0 11px;
+  background-color: #ff6b6b;
+  border-radius: 7px;
+  font-size: 14px;
+  /* font-weight: bold; */
+  font-family: AJannatLT;
+}
+.way {
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.video-status {
+  border-bottom: 2px solid #ff6b6b2e;
+}
+.courses-list ul li a {
+  color: #00a197;
+}
+.courses-list ul li a:hover {
+  color: #1a635e;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .courses-list ul li a {
+    color: #00a197;
+    font-size: 14px;
+  }
+  .video-status {
+    border-bottom: 2px solid #ff6b6b2e;
+    font-size: 13px;
+  }
+  .reg-lec {
+    padding: 2px 11px;
+    font-size: 11px;
+  }
+  .lecture-title h5 {
+    font-size: 18px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* __________________________________________ attach page ___________________ */
+.attach-page {
+  min-width: 150px;
+}
+.course-cover2 img {
+  height: 175px;
+  width: 300px;
+}
+.course-des2 {
+  width: 317px;
+}
+
+/* _______________________________________ Course-page ____________________ */
+
+.video-js {
+  width: 100%;
+  min-height: 380px;
+}
+.mego {
+  overflow: auto;
+  margin-top: 16px;
+  max-height: 379px;
+}
+.mego::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.mego::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.mego::-webkit-scrollbar-thumb {
+  background: #ec774c;
+}
+
+/* Handle on hover */
+.mego::-webkit-scrollbar-thumb:hover {
+  background: #aa5435;
+}
+.amg-s {
+  position: absolute;
+  bottom: 7px;
+  left: 12px;
+  color: #ec775745;
+}
+.comment-btn:hover {
+  color: #fff !important;
+}
+.personal-pic-comment {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 4px;
+  border: 3px solid #ec7757;
+}
+.comment {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}
+.replay {
+  background-color: antiquewhite;
+  margin: 0 50px 0 0;
+}
+.video-js .vjs-big-play-button {
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .qaz {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .personal-pic-comment {
+    width: 60px;
+    height: 60px;
+  }
+  .comment .px-3.card-title-color {
+    padding: 0 !important;
+    font-size: 13px;
+  }
+  .hdy {
+    margin-left: 8px !important;
+  }
+  .replay {
+    background-color: antiquewhite;
+    margin: 0 12px 0 0;
+  }
+  .replay-btn {
+    font-size: 13px;
+  }
+  .video-js {
+    width: 100%;
+    min-height: 272px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mego {
+    max-height: 271px;
+  }
+  .sm-shr {
+    padding: 0;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mego {
+    max-height: 271px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mego .profile-title {
+    font-size: 20px;
+  }
+  .mego .lecture-title h5 {
+    font-size: 18px;
+  }
+  .mego .courses-list {
+    font-size: 15px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Bank page ________________________________________________________ */
+
+.blue-box .box-header {
+    border-bottom: 2px solid #1b429a;
+    background-color: #1b429a;
+}
+.blue-box {
+  border: 2px solid #1b429a!important;
+}
+.green-box {
+  border: 2px solid #009956!important;
+}
+.green-box .box-header {
+  border-bottom: 2px solid #009956;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.swd-pd {
+  padding: 1.5rem;
+}
+.swd-pd h6 {
+  font-size: 20px;
+}
+.dark-silver-text {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* Bank page ____________________________________________________  End */
+
+/*  Contact Page  ______________________________________________________*/
+.contact-wd {
+  max-width: 500px;
+  margin: auto;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .swd-pd {
+    padding: 0;
+  }
+}
+
+/* Contact Page ___________________________________________________   End */
+
+/* FAQ PAge ______________________________________________________________ */
+.faq .card {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(75,58,133,.4);
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+.faq .card .card-header .faq-title .badge {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  text-align: center;
+  background: rgb(0, 161, 151);
+  color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  min-width: 25px !important;
+  min-height: 25px !important;
+}
+.faq .card .card-header .faq-title {
+  width: 100%;
+  font-size: 16px;
+  padding: 4px 15px;
+  text-decoration: none!important;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.faq  .dark-text {
+  color: #4b3a85!important;
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 575.98px) {
+ 
+  .faq .card .card-header .faq-title {
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 0px;
+  }
+}
+/* FAQ page ______________________________________________________________ End*/
+
+/* Subscribe page ________________________________________________________________   */
+
+
+
+.first-basket {
+  border-bottom: 3px solid #c32f7c2e;
+}
+.main-cart {
+  max-width: 250px ;
+  margin: auto;
+
+}
+.main-cart  button {
+  background-color: #fff;
+}
+.cart {
+  max-width: 128px;
+  margin: auto;
+}
+.cart img {
+  max-width: 100%;
+}
+.tele .user-name {
+  transition: all .2s ease-in-out;
+}
+.tele .user-name:hover {
+  background-color: #a74226;
+}
+/* Subscribe page ______________________________________________________________ End*/
+
+
+
+/* Exam page ________________________________________________________________   */
+
+.tele.exam .box-layout {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: "cairo";
+}
+.tele.exam .dark-bg {
+  background: #4b3a85;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+.tele.exam .dark-silver-text {
+  color: #4b3a85;
+  font-weight: bold;
+}
+.tele.exam .silver-bg {
+  background-color: #00a197!important;
+}
+.exam .badge {
+  padding: 5px 15px;
+  font-size: 70%;
+}
+
+.tele.exam .table thead th {
+  font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+ 
+  .box-layout {
+    overflow: auto;
+}
+  .exam table {
+    width: 750px;
+  }
+  .dark-silver-text {
+    font-size: 12px;
+  }
+  .tele.exam {
+    padding: 0;
+  }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .osm-pd {
+    padding: 0;
+  }
+}
+/* End Exam page ______________________________________________________________ End*/
